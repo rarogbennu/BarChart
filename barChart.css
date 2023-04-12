@@ -1,9 +1,10 @@
 #barchart {
     display: grid;
     grid-template-columns: repeat(40, 1fr);
+    /* repeats the columns 40 times */
     gap: 3px;
     align-items: end; 
-    /* ændrer så det alignes i bunde */
+    /* alings the bars at the bottom */
 }
 
 .bar {
