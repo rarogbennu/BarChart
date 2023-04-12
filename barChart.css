@@ -1,11 +1,13 @@
 #barchart {
     display: grid;
-    grid-template-columns: repeat(40, 1 fr);
+    grid-template-columns: repeat(40, 1fr);
     gap: 3px;
+    align-items: end; 
+    /* ændrer så det alignes i bunde */
 }
 
 .bar {
     background-color: black;
-    outline: 2px solid tomato;
-    height: 10px;
+    outline: 1px solid tomato;
+    height: 100px;
 }
